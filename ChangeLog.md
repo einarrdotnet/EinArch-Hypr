@@ -36,26 +36,33 @@ First i created a hidden file called .BashAliasList to add a list of aliases to 
 
 ### User Directories
 while there is a package that can be installed to do this automnaticlly i have opted to setup my user directories manually by creating the following file structure under the home directory
-    -Documents
-    -Downloads
-    -Downloads/GitClones
-    -Pictures
-    -Pictures/Wallpapers
-    -Pictures/Facebook
+    
+    Documents
+    Downloads
+    Downloads/GitClones
+    Music
+    Pictures
+    Pictures/Wallpapers
+    Pictures/Facebook
+    Public
+    Templates
+    videos
 
 ### Packages installed
 
 With my shortcuts in bash setup the i can continue setting up a basic working enviroment by installing the following packages
-    -ly (Display/Login Manager) - enabled on startup
-    -alacritty (terminal emulator)
-    -hyprland (tiling window manager)
-    -pipewire & pipewire-pulse (Audio Drivers)
-    -pulsemixer (terminal based volume control)
+    
+    ly (Display/Login Manager) - enabled on startup
+    alacritty (terminal emulator)
+    hyprland (tiling window manager)
+    pipewire & pipewire-pulse (Audio Drivers)
+    pulsemixer (terminal based volume control)
     -nvidia (videocard drivers)
     -wofi (application launcher) 
     -git (version control software)
     -google-chrome (browser) - needs to be installed using git
     -ranger (terminal based file manager)
     -hyprpaper (wallpaper utility)
+
 ### Hyperland Basic Setup
 For changes made to the Hyprland Tiling Window Manager please see the document "Hyprland-ChangeLog.md"
